@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3CDTD XHT 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml1-transitional.dtd">
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Marc Copland Home Page</title>
+	</head>
+	
+	<body>
+	
+		<div id = "wrap">
+			
+			<nav>
+				<ul id = "nav">
+					<li>Events</li>
+					<li>Music</li>
+					<li>About Marc</li>
+					<li>Gallery</li>
+					<li>Booking</li>
+					<li>Press</li>
+					<li>Contact</li>
+				</ul>
+			</nav>
+			
+			
+			<header>
+			</header>
+			
+			<div id = "innerwrap">
+			
+				<section>
+				</section>
+				
+				<div id = "main">
+				</div>
+				
+				<footer>
+				</footer>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>

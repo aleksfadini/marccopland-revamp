@@ -1,0 +1,487 @@
+/**********************************
+SMALL PHONE
+***********************************/
+
+@media screen and (min-width: 485px) {
+
+	/***************************
+	gallery page, theee cloumns
+	**************************/
+	
+	/* #gallery li {
+		width: 28.3333%
+	}
+	#gallery li:nth-child(4n) {
+		clear: left;
+	} */
+ 
+  /**********************************
+  HEADER
+  ***********************************/
+
+
+
+  	header {
+		height: 420px;
+		background: linear-gradient(#444, transparent 90%),
+              		linear-gradient(0deg, #fff, transparent),
+			  		#444 url('../img/MarcPortrait-small.jpg') no-repeat center;
+			  	background-size: cover;	
+	
+	}
+	h2 {
+		margin: 10px auto 250px;
+	}
+	h1,h2 {
+		text-shadow:1px 1px 10px black;
+	}
+	
+	/**********************************
+		NAVIGATION
+	***********************************/
+
+	nav {
+	  background: transparent;
+	}
+	
+	nav ul {
+	  line-height: 40%;
+	  background: none;
+	  
+	}
+
+
+	nav li {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 1px;
+	  margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em;
+
+	}
+	
+	nav li:first-child {
+		border: none;
+	}
+	
+	nav li:nth-child(4) {
+	border: none;
+	}
+
+	nav li:nth-child(7) {
+	border: none;
+	}
+
+	nav a, nav a:visited, nav a:link {
+		color: #444;
+	}
+	nav a.selected, nav a:hover {
+		color: #777;
+	}
+	
+	/**********************************
+		HOME
+	***********************************/
+
+	
+	.quote img {
+		 display: none;
+	}
+	
+/**********************************
+FOOTER
+***********************************/
+
+	.left {
+		width:32%;
+		float:left;
+		text-align:left;
+	}
+
+	.center {
+		width:32%;
+		float:left;
+		text-align:center;
+	}
+	.right {
+		width:32%
+		float: right;
+		text-align:right;
+	}
+
+
+}
+
+/**********************************
+SMALL TABLET
+***********************************/
+
+
+@media screen and (min-width: 660px) {
+	
+	
+	  	header {
+		height: 440px;
+		}
+	
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-size: 1.2em;
+}
+
+	
+/**********************************
+FOTO GALLERY PAGE
+***********************************/
+
+#fotogallery h3 {
+	margin-top:1.5em;
+}
+
+#fotogallery ul {
+	list-style:none;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	max-width: 900px;
+	text-align: center;
+}
+#fotogallery ul li {
+	display: inline-block;
+	padding: 8px;
+	background:white;
+	margin:10px;
+}
+#fotogallery ul li img {
+	display: block;
+}
+a {
+	text-decoration: none;
+}
+
+
+#overlay img {; 
+ max-width: 70%;
+ max-height: 70%;
+
+ /*    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+ max-width: 500px;
+ max-height: 500px; */
+
+}
+
+
+	
+	
+	
+	
+	
+
+}
+
+/**********************************
+BIG TABLET
+***********************************/
+@media screen and (min-width: 1020px) {
+	
+	
+	#wrapper {
+		max-width: 1020px;
+	}
+	  /**********************************
+  HEADER
+  ***********************************/
+
+  /*nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin-bottom: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #599a68;
+    margin-bottom: 60px;
+  } */
+  
+  	/***************************
+	TWO COLUMN LAYOUT
+	**************************/
+	
+ #primary {
+		width: 50%;
+		float: left;
+	}
+	#secondary {
+		width: 45%;
+		float: right;
+	}  
+	
+  	header {
+	  	
+	  	height: 390px;
+		background: linear-gradient(#444, transparent 90%),
+              		linear-gradient(0deg, #fff, transparent),
+			  		#444 url('../img/MarcPortrait.jpg') no-repeat center;
+			  		background-size:cover;
+			  		    border-bottom: 1px solid #999;
+		margin-bottom: 20px;
+	}
+	h2 {
+		margin: 10px auto 370px;
+	}
+	
+		h1,h2 {
+		text-shadow:1px 1px 10px gray;
+	}
+	
+	.quote p {
+		background-color: #fff;
+		padding: 5px;
+		margin: 5px;
+	}
+	
+	.quote {
+		border-style: hidden;
+			box-shadow: 0px 0px 0px black;
+			background-color: #fff;
+	}
+	
+	#quotes ul {
+	background-color: #fff;
+	}
+
+	/**********************************
+		NAVIGATION
+	***********************************/
+
+nav ul {
+    position: absolute;
+    line-height: 20%;
+    top: 300px;
+	}
+	  
+	nav li {
+		width:19%;
+		font-size: 1 em;
+	}
+
+		nav li {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 1px;
+	 padding: 0.2em 1em;
+	  margin: 0.3em 1em;
+	/*   margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em; */
+
+	}
+
+	/* nav li:first-child {
+		border: none;
+	}
+
+	nav li:nth-child(4), nav li:nth-child(7) {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 1px;
+	  margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em;
+
+	} 
+
+	nav li:nth-child(6),  {
+	border: none;
+	}
+
+	    #videos li iframe {
+    	height: 200px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+	*/
+	h2 {
+	    text-align: left;
+		margin: 0px 20px 220px 40px;
+	}
+	h1{
+	    text-align: left;
+		padding: 20px 20px 0px 40px;
+	}
+	
+	
+}
+
+
+/**********************************
+LAPTOP
+***********************************/
+
+@media screen and (min-width: 1360px) {
+	
+	#wrapper {
+    max-width: 1500px;
+    padding: 0 2%;
+	}
+
+		#newrecords {
+		width: 48%;
+		float: left;
+	}
+	#videos {
+		width: 51%;
+		float: right;
+	}  
+	
+	nav ul {
+    position: absolute;
+    line-height: 20%;
+    top: 320px;
+	}
+	  
+	nav li {
+		width:13%;
+		font-size: 1.1 em;
+	}
+
+		nav li {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 2px;
+	 padding: 0.2em 1em;
+	  margin: 0.3em 1em;
+	/*   margin: 7px 0 7px 0; 
+	    width: 29%;
+	padding-left:8px;
+	font-size: 0.2 em; */
+
+	}
+
+	/* nav li:first-child {
+		border: none;
+	} */
+
+	nav li:nth-child(4), nav li:nth-child(7) {
+	border-top: none;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+	 border-left: #999 solid 2px;
+	 padding: 0.2em 1em;
+	  margin: 0.3em 1em;
+
+	} 
+
+	nav li:nth-child(6)  {
+	 border: none;
+	}
+/*
+	    #videos li iframe {
+    	height: 200px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+	*/
+	
+
+	
+			    #videos li iframe {
+    	height: 230px; 
+    	width: 100%; 
+    	max-width: 100%; 
+    	max-height: 100%;
+	}
+	
+	
+}
+
+
+/**********************************
+WIDESCREEN
+***********************************/
+
+@media screen and (min-width: 1500px) {
+	
+/*  	header {
+	  	
+	  	height: 425px;
+	}
+	h2 {
+	    text-align: left;
+		margin: 0px 20px 260px 40px;
+	}
+	h1{
+	    text-align: left;
+		padding: 20px 20px 0px 40px;
+	}*/
+}
+
+/**********************************
+EXTRAWIDESCREEN
+***********************************/
+
+	
+@media screen and (min-width: 1900px) {
+	
+  	header {
+	  	
+	  	height: 390px;
+	}
+	h2 {
+	    text-align: left;
+		margin: 0px 20px 360px 40px;
+	}
+	h1{
+	    text-align: left;
+		padding: 20px 20px 0px 40px;
+	}
+}
+	
+
+	

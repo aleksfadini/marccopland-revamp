@@ -1,0 +1,18 @@
+# -FrontPage-
+
+Options None
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+require group administrators
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>
+AuthType Basic
+AuthName www.marccopland.com
+AuthUserFile /usr/local/4admin/apache/vhosts/marccopland.com/httpdocs/_vti_pvt/service.pwd
+AuthGroupFile /usr/local/4admin/apache/vhosts/marccopland.com/httpdocs/_vti_pvt/service.grp

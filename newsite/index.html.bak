@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="flatstyle.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Marc Copland Home Page</title>
+	</head>
+	
+	<body>
+	
+		<div id = "wrap">
+			
+			<nav>
+				<ul>
+					<a href="index.html"><li id = "home">Marc Copland</li></a>
+					<a href="events.html"><li>Events</li></a>
+					<a href="music.html"><li>Music</li></a>
+					<a href="about.html"><li>About Marc</li></a>
+					<a href="gallery.html"><li>Gallery</li></a>
+					<a href="booking.html"><li>Booking</li></a>
+					<a href="http://www.marccopland.com/"><li>Press</li></a>
+					<a href="contact.html"><li>Contact</li></a>
+				</ul>
+			</nav>
+			
+			
+			<header>
+			</header>
+			
+			<div id = "innerwrap">
+			
+				<section>
+				</section>
+				
+				<div id = "main">
+					<img src = "http://www.marccopland.com/index_files/image002.jpg"/>
+				</div>
+				
+				<footer>
+				</footer>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>

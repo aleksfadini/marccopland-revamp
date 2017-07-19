@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial|Syncopate:400,700);
+
+*{
+	color:white;
+	font-family: "Syncopate", "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+html, body{
+	background-color:black;
+	height:100%;
+	width:100%;
+}
+
+nav ul li{
+	
+}
+
+nav li:hover{
+	background-color:#343434;
+}
+
+nav ul li {
+     width: 200px;
+     display: inline;
+     margin: 5px;
+}
+nav ul{
+	width:100%;
+	list-style-type:none;
+}
+
+nav{
+	height:30%;
+	width:100%;
+	margin-bottom:3%;
+}
+
+img{
+	border-radius:1px;
+	border:1px dashed white;
+	margin:10px 5%;
+	float:right;
+}
+
+nav li#home{
+	width:30%;
+	height:10%;
+	font-size:xx-large;
+	line-height:50%;
+}
+
+div#wrap{
+	width:90%;
+	padding: 1%;
+}
+div#smallphoto{
+	width:50%;
+	height:50%;
+}
+#smallphoto img
+{
+	border: 0; 
+	outline: 0;
+max-width:100%; 
+max-height:100%;
+margin:3%;
+display:block;
+}
+div#mediumphoto{
+	width:60%;
+	height:60%;
+}
+#mediumphoto img
+{
+	border: 0; 
+	outline: 0;
+max-width:100%; 
+max-height:100%;
+margin:3%;
+display:block;
+}
+div#innerwrap{
+	height:10%;
+}
+div#main{
+	width:auto;
+	padding:5%;
+	padding-top:3%;
+}
+.div-table{
+  display:table;         
+  width:auto;                 
+  border:1 px        
+  border-spacing:5px;/*cellspacing:poor IE support for  this*/
+}
+.div-table-row{
+  display:table-row;
+  width:auto;
+  clear:both;
+}
+.div-table-col{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:40%;         
+  
+}
+.shadow {
+  -moz-box-shadow:    0px 0px 2px 6px #333;
+  -webkit-box-shadow: 0px 0px 2px 6px #333;
+  box-shadow:         0px 0px 2px 3px #333;
+}
+
+a{
+	text-decoration:none;
+	color:#8DEEEE;
+}

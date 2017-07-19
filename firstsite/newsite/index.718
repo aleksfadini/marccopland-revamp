@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Marc Copland Home Page</title>
+	</head>
+	
+	<body>
+	
+		<div id = "wrap">
+			
+			<nav>
+				<ul>
+					<a href="index.html"><li id = "home">Marc Copland</li></a>
+					<a href="events.html"><li>Events</li></a>
+					<a href="music.html"><li>Music</li></a>
+					<a href="about.html"><li>About Marc</li></a>
+					<a href="gallery.html"><li>Gallery</li></a>
+					<a href="booking.html"><li>Booking</li></a>
+					<a href="http://www.marccopland.com/"><li>Press</li></a>
+					<a href="contact.html"><li>Contact</li></a>
+				</ul>
+			</nav>
+			
+			
+			<header>
+			</header>
+			
+			<div id = "innerwrap">
+				<section>
+				</section>
+				
+				<div id = "main">
+					<div class="div-table">
+             <div class="div-table-row">
+                <div class="div-table-col" align="center">
+<div id = "smallphoto">
+					
+					<img src = "photos/Francesco_Prandoni-3.jpg">
+					<p>"A spellbinder....a true master of  enchantment, the poet of the piano...he hears sounds no one else does....
+						an  artist of the first order, infused with so much emotion that it connects  directly and deeply with open-eared listeners....
+						a  probingly original mind.....
+						jazz as it was meant to be...there is nothing  comparable....the perfect leader."</p>
+				</div>
+				
+				</div>
+                <div  class="div-table-col">
+                	<div id = "mediumphoto">
+							
+					<img <img src="photos/2428-gary-peacock-trio-now-this.jpg" alt="Gary Peacock Trio: Now This">
+					<p>
+							<a target="_blank" href="http://www.ecmrecords.com/releases/now-this/">ECM Gary Peacock Trio: Now This</a>
+												</p>
+						</div>		
+						</div>
+             </div>
+				</div>				
+				<footer>
+				</footer>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+	
+</html>
